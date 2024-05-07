@@ -1,0 +1,129 @@
+commands used ....
+ 1999  touch file1 file2
+ 2000  whoami
+ 2001  id
+ 2002  groups
+ 2003  passwd
+ 2004  who
+ 2005  last
+ 2006  nslookup rgukt.ac.in
+ 2007  cp
+ 2008  cp file1 file2
+ 2009  cat>file2
+ 2010  cat file1
+ 2011  cat file2
+ 2012  cat file1 file2
+ 2013  cp file1 file2
+ 2014  cp file2
+ 2015  rm file2
+ 2016  cat file2
+ 2017  cat> file2
+ 2018  mv file2 file1
+ 2019  cat file1
+ 2020  chown file1 file2
+ 2021  cd
+ 2022  pwd /Home
+ 2023  1961 whoami
+ 2024  whoami
+ 2025  echo "student"
+ 2026  chown file1 file2
+ 2027  chown file file2
+ 2028  cd
+ 2029  pwd /home
+ 2030  history
+
+
+
+
+
+
+week1 commands(terminal)...
+
+user@navya:~$ touch file1 file2
+user@navya:~$ whoami
+user
+user@navya:~$ id
+uid=1000(user) gid=1000(user) groups=1000(user),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),120(lpadmin),132(lxd),133(sambashare)
+user@navya:~$ groups
+user adm cdrom sudo dip plugdev lpadmin lxd sambashare
+user@navya:~$ passwd
+Changing password for user.
+Current password: 
+New password: 
+BAD PASSWORD: The password is just rotated old one
+New password: 
+Retype new password: 
+passwd: password updated successfully
+user@navya:~$ who
+user     tty2         2024-04-04 11:41 (tty2)
+user@navya:~$ last
+user     tty2         tty2             Thu Apr  4 11:41   still logged in
+reboot   system boot  6.5.0-27-generic Thu Apr  4 11:41   still running
+user     tty2         tty2             Sat Mar 30 17:22 - down   (01:00)
+reboot   system boot  5.13.0-35-generi Wed Mar 16 13:02 - 13:09  (00:06)
+
+wtmp begins Wed Mar 16 13:02:23 2022
+user@navya:~$ nslookup rgukt.ac.in
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+** server can't find rgukt.ac.in: SERVFAIL
+
+user@navya:~$ cp
+cp: missing file operand
+Try 'cp --help' for more information.
+user@navya:~$ cp file1 file2
+user@navya:~$ cat>file2
+        
+^Z
+[1]+  Stopped                 cat > file2
+user@navya:~$ cat>file2
+^Z
+[2]+  Stopped                 cat > file2
+user@navya:~$ cat file1
+My self sk
+rgukt basar
+
+user@navya:~$ cat file2
+user@navya:~$ cat file2
+This is my second file2
+
+user@navya:~$ cat file1 file2
+My self sk
+rgukt basar
+
+This is my second file2
+
+user@navya:~$ cp file1 file2
+user@navya:~$ cp file2
+cp: missing destination file operand after 'file2'
+Try 'cp --help' for more information.
+user@navya:~$ rm file2
+user@navya:~$ cat file2
+cat: file2: No such file or directory
+user@navya:~$ cat> file2
+^Z
+[3]+  Stopped                 cat > file2
+user@navya:~$ mv file2 file1
+user@navya:~$ cat file1
+user@navya:~$ chown file1 file2
+chown: invalid user: ‘file1’
+user@navya:~$ cd
+user@navya:~$ pwd /Home
+/home/user
+user@navya:~$ 1961 whoami
+1961: command not found
+user@navya:~$ whoami
+user
+user@navya:~$ echo "student"
+student
+user@navya:~$ chown file1 file2
+chown: invalid user: ‘file1’
+user@navya:~$ chown file file2
+chown: invalid user: ‘file’
+user@navya:~$ cd
+user@navya:~$ pwd /home
+/home/user
+user@navya:~$ history
+
+
